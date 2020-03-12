@@ -1,3 +1,5 @@
+load("@bazel_tools//tools/build_defs/repo:maven_rules.bzl", "maven_jar", "maven_dependency_plugin")
+
 maven_jar(
     name = "com_google_code_findbugs_jsr305",
     artifact = "com.google.code.findbugs:jsr305:2.0.3",
