@@ -126,3 +126,8 @@ maven_jar(
     artifact = "joda-time:joda-time:2.3",
     sha1 = "56498efd17752898cfcc3868c1b6211a07b12b8f",
 )
+
+maven_jar(
+    name = "tapestry_tapestry",
+    artifact = "tapestry:tapestry:4.0.2",
+)
