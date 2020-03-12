@@ -133,3 +133,8 @@ maven_jar(
     name = "tapestry_tapestry",
     artifact = "tapestry:tapestry:4.0.2",
 )
+
+maven_jar(
+    name = "com_google_android_android",
+    artifact = "com_google_android:android:4.1.1.4",
+)
