@@ -135,11 +135,6 @@ maven_jar(
 )
 
 maven_jar(
-    name = "com_google_android_android",
-    artifact = "com_google_android:android:4.1.1.4",
-)
-
-maven_jar(
     name = "checkstyle_checkstyle",
     artifact = "checkstyle:checkstyle:8.11",
 )
